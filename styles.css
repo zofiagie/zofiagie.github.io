@@ -1,0 +1,137 @@
+body {
+    font-family: 'Nunito';
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
+    letter-spacing: 1.3px;
+    /* margin-left: 100px;
+    margin-top: 100px; */
+    /* background-image: url("https://image.freepik.com/free-photo/hand-painted-watercolor-background-with-sky-clouds-shape_24972-1095.jpg"); */
+}
+
+* { 
+    box-sizing: border-box;
+}
+
+table {
+    /* text-align: center;  */
+    line-height: 200%;
+    width: 300px;
+    height: 200px;
+    border-top: 5px solid #000000;
+    color: #496BD8;
+    font-weight: bold;
+} 
+
+table th {
+    text-align: left;
+    color: #2A3655;
+}
+
+h1 {
+    color:#496BD8;
+}
+
+h3 {
+    color: #FC7629;
+    font-size: 34px;
+    font-weight: 900;
+    margin: 0;
+}
+
+p {
+    color: #2A3655;
+    font-weight: bold;
+    margin: 0;
+    /* text-indent: 50px; */
+}
+
+.sup_element {
+    color: #2A3655;
+}
+
+footer strong {
+    text-decoration: underline wavy #FF66CE;
+}
+
+mark {
+    border-radius: 5px;
+}
+
+div#main-content {
+    padding-left: 30px;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    display: flex;
+    background-image: linear-gradient(45deg, #FFF7F6, #CACACA);
+    /* flex-direction: column; */
+    /* flex-direction: row-reverse; */
+    /* flex-wrap: wrap; */
+    /* justify-content: center; */
+    /* justify-content: space-around; */
+    /* justify-content: flex-end; */
+    /* border-style: solid; */
+}
+
+a {
+    color: #20D0FF;
+}
+
+a:hover
+ {
+    color: black;
+}
+
+/* table tr:first-child {
+    color: blue;
+} */
+
+/* span {
+    display: block;
+} */
+
+article {
+    margin-bottom: 80px;
+}
+
+#articles {
+    flex-grow: 1;
+}
+
+#skills {
+    flex-grow: 1;
+    /* align-self: center; */
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+    align-items: center;
+    background-image: linear-gradient(45deg, #EBF9FF, #FFF7F6);
+}
+
+
+footer {
+    font-size: 15px;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    padding: 10px;
+    text-align: center;
+    width: 100%;
+    color: #2A3655;
+    background-color: #EBF9FF;
+}
+
+@media screen and (min-width: 600px) {
+    footer {
+        position: fixed;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    div#main-content, header {
+        flex-direction: column;
+    }
+}

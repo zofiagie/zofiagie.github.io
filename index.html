@@ -5,76 +5,77 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My first website!</title>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Nunito">
+    <link rel="stylesheet" href="styles.css"> 
 </head>
 <body>
 
     <header>
-        <h1>Welcome to&nbsp;my&nbsp;first&nbsp;website!</h1>
+        <h1>Welcome to my first website!</h1>
         <a href="contact.html">Contact me</a>
         <!-- <a href="https://www.google.com">Find in Google</a> -->
-        <br>
     </header>
 
-    <article>
-        <h3>This is my first blog post</h3>
-        <p>This is the content of my first blog post</p>
-        <br>
-    </article>
 
-    <article>
-        <h3>This is my second blog post</h3>
-        <p>This is the content of my second blog post &lt;something&gt;</p>
-        <br> <!-- this tag is used for new line-->
-    </article>
+    <div id="main-content">
+
+        <section id="articles">
+            <article>
+                <h3>This is my first blog post</h3>
+                <p>This is the content of my first blog post</p>
+                <!-- width of content area only -->
+            </article>
+
     
-    <article>
-        <h3>This is my third blog post</h3>
-        <p>This is the <mark>content</mark> of my third blog post <br> Continue the content after <i>breaking line</i>. <sup class="sup_element" style="color: red">*</sup></p>
-        <small><sup class="sup_element">*</sup>Another sentence</small>
-    </article>
+            <article>
+                <h3>This is my second blog post</h3>
+                <p>This is the content of my second blog post &lt;something&gt;</p>
+            </article>
+
     
-    <br> 
-    <br>
-    <br>
-    <br>
+            <article>
+                <h3>This is my third blog post</h3>
+                <p>This is the <mark>content</mark> of my third blog post <br> Continue the content after <i>breaking line</i>. <sup class="sup_element">*</sup></p>
+                <small><sup class="sup_element">*</sup>Another sentence</small>
+            </article>
+        </section>
 
-    <div> <!-- div is the block element -->
-        My skills:
-        <ul> <!-- <ol> -->
-            <li>I know HTML :)</li>
-            <li>I do not know CSS yet :(</li>
-        </ul>
+        <div id="skills">
+            <b style='font-size: 30px; font-weight: 900; color: #20D0FF'>
+                My skills:
+            </b>
+            <!-- <ul> dla numerowanych: <ol> 
+                <li>I know HTML :)</li>
+                <li>I do not know CSS yet :(</li>
+            </ul> -->
+            
+            <table>
+                <tr>
+                    <th>Technology</th>
+                    <th>Level</th>
+                </tr>
+                <tr>
+                    <td>HTML</td>
+                    <td>4</td>
+                </tr>
+                <tr>
+                    <td>CSS</td>
+                    <td>good</td>
+                </tr>
+            </table>
+        </div>
 
-        <table border="1">
-            <tr>
-                <th>Technology</th>
-                <th>Level</th>
-            </tr>
-            <tr>
-                <td>HTML</td>
-                <td>4</td>
-            </tr>
-            <tr>
-                <td>CSS</td>
-                <td>0 :(</td>
-            </tr>
-        </table>
     </div>
 
-    <br>
-    <br>
-    <br>
-    <br>
 
     <footer>
         <div>
-            Footer area. &copy; Copyright <strong>Me</strong> & <b>My Tutor</b> 
+            Footer area. &copy; Copyright <strong>Me</strong> & <b>My Tutor</b>  
         </div>
     </footer>
 
 
-    Content not wrapped in any tag (barely used in reality)
+    <!-- Content not wrapped in any tag (barely used in reality) -->
     <script src="scripts.js"></script>
 </body>
 </html>
